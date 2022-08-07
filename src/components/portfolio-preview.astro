@@ -1,26 +1,24 @@
 ---
 const { project } = Astro.props;
+
+const imgSrc = project.frontmatter.thumb ?? project.frontmatter.img
+let imgClasses = ['opacity-50', 'object-cover', 'h-[17rem]']
+if (project.frontmatter.thumb && project.frontmatter.thumb_mode === 'contain') {
+	imgClasses = ['object-contain', 'h-60']
+} else if (project.frontmatter.thumb && project.frontmatter.thumb_mode !== 'contain') {
+	imgClasses = ['object-cover', 'h-[17rem]']
+}
+const containerClasses = { 'p-4': project.frontmatter.thumb && project.frontmatter.thumb_mode === 'contain' }
+
 ---
 
 <div class="flex flex-col gap-2">
-	{project.frontmatter.thumb && project.frontmatter.thumb_mode === 'contain' &&
-	<div class="bg-gray-300 rounded-lg p-4">
-		<a href={project.url} tabindex="-1"><img class="object-contain w-full h-60 rounded-lg"
-				src={project.frontmatter.thumb}></a>
+	<div class:list={["bg-gray-300", "rounded-lg" , "overflow-hidden" , containerClasses ]}>
+		<a href={project.url} tabindex="-1">
+			<img class:list={['w-full', 'rounded-lg' , 'hover:scale-[1.1]' , 'transition-transform' , ...imgClasses]}
+				src={imgSrc} />
+		</a>
 	</div>
-	}
-	{project.frontmatter.thumb && project.frontmatter.thumb_mode !== 'contain' &&
-	<div class="bg-gray-300 rounded-lg">
-		<a href={project.url} tabindex="-1"><img class="object-cover w-full h-[17rem] rounded-lg"
-				src={project.frontmatter.thumb}></a>
-	</div>
-	}
-	{!project.frontmatter.thumb &&
-	<div class="bg-gray-300 rounded-lg">
-		<a href={project.url} tabindex="-1"><img class="object-cover w-full h-[17rem] rounded-lg opacity-50"
-				src={project.frontmatter.img}></a>
-	</div>
-	}
 	<div>
 		<a href={project.url}>
 			<div class="text-lg font-semibold">{project.frontmatter.title}</div>

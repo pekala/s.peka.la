@@ -4,7 +4,7 @@ title: Collabo
 role: Branding, UX, UI
 date: 2015
 logo: /assets/collabo-logo-top.png
-img: /assets/collabo-bg.jpeg
+img: /assets/collabo-bg.png
 thumb: /assets/collabo-imac.png
 thumb_mode: contain
 ---
