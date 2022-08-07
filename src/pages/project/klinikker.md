@@ -10,15 +10,16 @@ thumb: /assets/klinikker-thumb.png
 thumb_mode: contain
 ---
 
-[Klinikker.dk](https://klinikker.dk) is a Danish search and scheduling platform for
-medical care. 
+[Klinikker.dk](https://klinikker.dk) is a Danish search and scheduling platform
+for medical care.
 
-In 2016 I worked with the Klinikker team on the redesign of the
-logo and the brand identity. At that time, the company’s goal was to gain a broad audience
-of patients and clinic owners. To do so, they needed a reliable visual image and
-well functioning platform. I focused on having a coherent visual
-image and user experience of their website. I designed visual guidelines
-containing color scheme, icons, symbols and other graphic elements to match medical care universe. The main user experience focus was put on the user flow of the search
+In 2016 I worked with the Klinikker team on the redesign of the logo and the
+brand identity. At that time, the company’s goal was to gain a broad audience of
+patients and clinic owners. To do so, they needed a reliable visual image and
+well functioning platform. I focused on having a coherent visual image and user
+experience of their website. I designed visual guidelines containing color
+scheme, icons, symbols and other graphic elements to match medical care
+universe. The main user experience focus was put on the user flow of the search
 engine, simplicity of sign up, and accessibility.
 
 ## Logo
@@ -87,9 +88,9 @@ done so, we rolled out the following booking flow:
 
 ### Sign Up A/B Testing
 
-We also tested sign up flow that was a crossroad for the two types
-of users we served. Based on results we chose one that asked the user to put in
-their email and presented two buttons: “I’m a patient” and “I’m a clinic”.
+We also tested sign up flow that was a crossroad for the two types of users we
+served. Based on results we chose one that asked the user to put in their email
+and presented two buttons: “I’m a patient” and “I’m a clinic”.
 
 ![](/assets/signup.png)
 
@@ -102,4 +103,5 @@ following presents way of finding contact information (in orange):
 
 ![](/assets/contact-flow.png)
 
-During my time in the company I also learned basics of html and css, and used them in prototyping. 
+During my time in the company I also learned basics of html and css, and used
+them in prototyping.

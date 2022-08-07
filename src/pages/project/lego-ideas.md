@@ -69,6 +69,6 @@ profile that we believed provided our users
 
 I moved away from the project before we managed to implement the new design and
 learn from it through analytics and user interviews. The redesigned page can be currently found
-after loggin in on [LEGO® Ideas](https://ideas.lego.com/profile/ebcf1702-1383-4be5-af52-13746e004181/entries?query=&sort=top).
+after logging in on [LEGO® Ideas](https://ideas.lego.com/profile/ebcf1702-1383-4be5-af52-13746e004181/entries?query=&sort=top).
 
 ![](/assets/mobile.png)
